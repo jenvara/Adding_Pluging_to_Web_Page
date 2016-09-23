@@ -6,4 +6,28 @@ $(".animsition").animsition({
   outDuration: 500
 });
 
-$('.header').sticky();
+$('.header').sticky({
+	getWidthFrom: '.container',
+	responsiveWidth: true
+});
+
+$('.header').on('sticky-start', function () {
+	$('.description').html('We build <strong>great</strong> apps');
+});
+$('.header').on('sticky-end', function () {
+	$('.description').html('We build apps');
+});
+
+$('.projecta').sticky({
+	topSpacing:60,
+	getWidthFrom: '.container',
+	responsiveWidth: true
+});
+
+$('.projecta').on('sticky-start', function () {
+	$(this).append(' <a href="mailto:email@website.com" class="email-text">Email&nbsp;us</a>');
+});
+
+$('.projecta').on('sticky-end', function () {
+	$('.email-text').remove();
+});

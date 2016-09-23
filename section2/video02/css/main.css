@@ -349,6 +349,17 @@ footer {
 	
 }
 
+.projecta {
+	background-color: white;
+	transition: ls;
+}
+.is-sticky .projecta {
+	background-color: blue;
+}
+.is-sticky projecta a {
+	
+}
+
 
 
 
