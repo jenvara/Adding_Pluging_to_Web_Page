@@ -5,5 +5,5 @@ Using jQuery Plugins Challenge
   2. Attach jQuery and the Slick Plugin files - completed
   3. Add a div to hold the slides - completed
   4. Add thee 'slides' - completed
-  5. Add the programming to call the plugin
-  6. Change the look with CSS
+  5. Add the programming to call the plugin - completed
+  6. Change the look with CSS - completed
